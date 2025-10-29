@@ -1,0 +1,93 @@
+ /* --- Estilos generales --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf8f3; /* beige muy suave */
+    margin: 0;
+    padding: 0;
+    color: #3c3c3c;
+}
+
+header {
+    background-color: #d3c60d; /* terracota suave */
+    color: #fff;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 6px solid #fad029; /* tono más oscuro */
+}
+
+h1 {
+    font-size: 2.6em;
+    margin: 0;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ffe9cc; /* crema pálido */
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 40px;
+}
+
+/* --- Tarjetas de contenido --- */
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 25px;
+    line-height: 1.7;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* --- Colores por sección --- */
+.historia {
+    background-color: #fff2e0; /* crema terracota */
+    border-left: 8px solid #e67e22;
+}
+
+.platos {
+    background-color: #fdf4e7; /* beige arena */
+    border-left: 8px solid hsl(57, 90%, 76%);
+}
+
+.bailes {
+    background-color: #e0f7f6; /* turquesa suave */
+    border-left: 8px solid #26a69a;
+}
+
+.personajes {
+    background-color: #fbe9e7; /* rosado melón */
+    border-left: 8px solid #ff7043;
+}
+
+/* --- Imagen --- */
+.imagen {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.imagen img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    border: 5px solid #ffd8b2; /* borde durazno suave */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    background-color: #b06b34;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9em;
+    border-top: 5px solid #d48845;
+}
